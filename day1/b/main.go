@@ -65,7 +65,7 @@ func get_sum(nums []string) int {
 	return sum
 }
 
-// Count the number of depth increases
+// Count the number of depth increases in a sliding 3 span window
 func count_depth_increases(depths []string) int {
 	increases := 0
 	for i := range depths {
